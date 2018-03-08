@@ -1,0 +1,53 @@
+1st QUESTION :-
+How did viewing a diff between two versions of a file help you see the bug that was introduced ?
+
+ANSWER :-
+It was little hard as I have to search manually for the bug. One can easily ignore a bug in a code of 
+hundreds of/ thousands of lines. 
+
+2nd QUESTION :-
+How could having easy acccess to the entire history of a file make you a more efficient programmer in the long run ?
+
+ANSWER:-
+1. I can easily can compare the two and find out the bug in the code which will eventually save time.
+2. I can keep track of my improvements and the areas where I can improve.
+3. I can learn from my mistakes.
+
+3rd QUESTION :-
+What do you think are the pros and cons of manually choosing when to create a commit,
+like you do in Git, vs having versions automatically saved, like Google Docs does ?
+
+ ANSWER :-
+ PROS -
+ 1. It gives the flexibility. I dont have to pass certain checks to save my code.
+ 2. Only relevant changes will be saved.
+ 3. I can aesthetically improve my history which will make it easier for me to see the changes.
+
+ CONS -
+ 1. If something goes wrong like powercut etc. then all of my progress will be lost and my hardwork will go in vain.
+ 2. I have to decide when to commit which might be confusing sometimes.
+
+ 4th QUESTION :-
+ Why do you think some version control systems, like Git, allow saving miltiple files in one commit, while other, like Google Docs, treat each file separately ?
+
+ ANSWER :-
+ Google Docs and Git have different purposes to serve. Google Docs mainly focus on 
+ docs and ppts where it is fine to save files separately because there functionality is not dependent on other files but Git is used to keep the track changes made to code and it would be very difficult to run a code if all the files were not saved together as then the user have to find the various 
+ versions of each file, combine them and then run the code. 
+ It is important to save all the files together to save time.
+
+ 5th QUESTION :-
+ How can you use the commands git log and git diff to view the history of files ?
+
+ ANSWER :-
+ I can use git log to see the past commits made to the code. 
+ And use the git diff to compare two commits to see the lines which have been changed.
+
+ 5th QUESTION :-
+ How might using version control make you more confident to make changes that could break something ?
+
+ ANSWER :-
+ Using Git gives me confidence to take risks. As even if something goes wrong I have the power to go in the past by using checkout and remove that bug. 
+ Its similar to the sword used in Prince of Persia : The Sands of Time.
+
+
