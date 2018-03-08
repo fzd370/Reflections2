@@ -1,0 +1,13 @@
+Question 1 :-
+What happens when you initialize a repository? Why do you need to do it ?
+
+Answer :-
+An empty repository is created with no commits. Git doesn't include any file because we have not provided the information of the files which we need to track.
+
+Question 2 :- 
+How is the staging area different from the working and the repository? What value do you think it offers ?
+
+Answer :-
+Staging area is the stage before commit pocess.Staging area is very different from the working directory and the repository. Working directory tells about the directory in which we are working and the repository is the snapshot of all the files
+at a particular moment.
+Staging area gives us opportunity to correct thing or to make changes before doing actual commit.
