@@ -11,3 +11,32 @@ Answer :-
 Staging area is the stage before commit pocess.Staging area is very different from the working directory and the repository. Working directory tells about the directory in which we are working and the repository is the snapshot of all the files
 at a particular moment.
 Staging area gives us opportunity to correct thing or to make changes before doing actual commit.
+
+Question 3 :-
+How can you use the staging area to make sure you have one commit per logical change ?
+
+Answer :-
+We can add the file to staging area after doing the changes and then commit it.
+
+Question 4 :-
+What are the some situations when branches would be helpful in keeping your history organized? How would branches help ?
+
+Answer :-
+Some situations are -
+1. When I want to try something new.
+2. When I want to remove a bug and I want to see the code's effect on the functionality.
+3. When I want to create alogically different thing.
+
+Branches will help to easily identify different things or parts.
+
+Question 5 :-
+How do the diagrams help you visualize the branch structure ?
+
+Answer :-
+Diagrams are quite helpful in visualizing relationship between master branch and daughter branches. With using git log --graph (possibly with --oneline) [branch names...], you can easily tell how the whole branch structure was developed and at which point each branch was actually created. That would give you the overview of the whole structure of the project you are working on, so that you can tell what you are specifically focusing on and when and which branch to merge your work.
+
+Question 6 :- 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Answer :-
+When we merge two branches the commits of the daughter branch gets added to the parent branch. The commits are arranged according to timespan. We represent it in that way to have a clear about the commits we made in different branches. 
